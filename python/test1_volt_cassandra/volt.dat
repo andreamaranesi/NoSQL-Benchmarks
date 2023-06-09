@@ -1,0 +1,56 @@
+requested distribution:zipfian
+2023-05-23 10:29:29:007 0 sec: 0 operations; est completion in 0 second 
+2023-05-23 10:29:38:953 10 sec: 6994 operations; 699.33 current ops/sec; est completion in 5 second [READ AverageLatency(us)=10520.65] [UPDATE AverageLatency(us)=13076.91] [INSERT AverageLatency(us)=12714.4] 
+2023-05-23 10:29:42:907 13 sec: 10000 operations; 760.44 current ops/sec; [READ AverageLatency(us)=9693.77] [CLEANUP AverageLatency(us)=2457.62] [UPDATE AverageLatency(us)=12177.58] [INSERT AverageLatency(us)=12035.4] 
+[OVERALL], RunTime(ms), 13955
+[OVERALL], Throughput(ops/sec), 716.5890361877463
+[TOTAL_GCS_PS_Scavenge], Count, 2
+[TOTAL_GC_TIME_PS_Scavenge], Time(ms), 15
+[TOTAL_GC_TIME_%_PS_Scavenge], Time(%), 0.10748835542816196
+[TOTAL_GCS_PS_MarkSweep], Count, 0
+[TOTAL_GC_TIME_PS_MarkSweep], Time(ms), 0
+[TOTAL_GC_TIME_%_PS_MarkSweep], Time(%), 0.0
+[TOTAL_GCs], Count, 2
+[TOTAL_GC_TIME], Time(ms), 15
+[TOTAL_GC_TIME_%], Time(%), 0.10748835542816196
+[READ], Operations, 8000
+[READ], AverageLatency(us), 10273.202125
+[READ], MinLatency(us), 398
+[READ], MaxLatency(us), 43835
+[READ], Return=OK, 8000
+[READ], 0, 11184.773101555353
+[READ], 2000, 11438.193396226416
+[READ], 4000, 10336.277917716205
+[READ], 6000, 9861.174880763116
+[READ], 8000, 10337.073212747631
+[READ], 10000, 9695.65020242915
+[READ], 12000, 9126.586826347306
+[CLEANUP], Operations, 8
+[CLEANUP], AverageLatency(us), 2457.625
+[CLEANUP], MinLatency(us), 976
+[CLEANUP], MaxLatency(us), 5358
+[CLEANUP], 0, 2457.625
+[UPDATE], Operations, 500
+[UPDATE], AverageLatency(us), 12794.52
+[UPDATE], MinLatency(us), 3157
+[UPDATE], MaxLatency(us), 33687
+[UPDATE], Return=OK, 500
+[UPDATE], 0, 13216.688524590163
+[UPDATE], 2000, 13367.38028169014
+[UPDATE], 4000, 13213.256756756757
+[UPDATE], 6000, 12514.623188405798
+[UPDATE], 8000, 13661.541176470588
+[UPDATE], 10000, 11731.061728395061
+[UPDATE], 12000, 11681.71186440678
+[INSERT], Operations, 1500
+[INSERT], AverageLatency(us), 12508.436666666666
+[INSERT], MinLatency(us), 1010
+[INSERT], MaxLatency(us), 39283
+[INSERT], Return=OK, 1500
+[INSERT], 0, 14083.984771573603
+[INSERT], 2000, 13287.217194570136
+[INSERT], 4000, 12424.841121495327
+[INSERT], 6000, 11655.7
+[INSERT], 8000, 12593.504545454545
+[INSERT], 10000, 12135.86
+[INSERT], 12000, 11353.404761904761

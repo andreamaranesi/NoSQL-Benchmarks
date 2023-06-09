@@ -1,0 +1,5 @@
+git clone https://github.com/dajobe/hbase-docker
+cd hbase-docker
+sudo ./start-hbase.sh
+
+docker exec -it hbase-docker hbase shell -> shell

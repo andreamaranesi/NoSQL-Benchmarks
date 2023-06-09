@@ -1,0 +1,49 @@
+# Copyright (c) 2010 Yahoo! Inc. All rights reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License"); you
+# may not use this file except in compliance with the License. You
+# may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+# implied. See the License for the specific language governing
+# permissions and limitations under the License. See accompanying
+# LICENSE file.
+
+
+# total number of records that will be loaded on the 3 tables
+recordcount=1000
+tableinsertpercentage=0.3,0.4,0.3
+
+# number of operations in a "run" operation
+operationcount=1000
+
+
+# key distribution to select during run
+# the value can be zipfian (higher probability of selecting a subset of "popular" keys), uniform (equal probability of selecting any of the loaded keys)
+requestdistribution=zipfian
+
+readproportion=0.6
+updateproportion=0.2
+insertproportion=0.2
+fieldcount=10
+fieldlength=100
+
+# the following values are used to define the minimum and maximum characters of a long field (e.g., the content of a post or comment)
+# in this way, posts and comments will have values between 300 and 1000 characters at each insert/update
+mincontentchars=300
+maxcontentchars=1000
+
+# probability of using one of the 3 tables during a "run" command
+tableprobabilities=0.3,0.4,0.3
+
+# Prefix applied to the primary keys of records loaded into the tables
+prefix=user45_
+
+# Prefix applied to the primary keys of records inserted during a "run" command.
+# It is important to update this value for each "run" to prevent conflicts with existing primary keys
+prefix_run_insert=run1_
+

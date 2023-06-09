@@ -1,0 +1,19 @@
+=== Global Metrics ===
+RunTime(ms): 68224.0 vs 66651.0
+READ_ MinLatency(us): 143.0 vs 103.0
+Throughput(ops/sec): 14657.598499061914 vs 15003.525828569715
+INSERT_ MaxLatency(us): 26637.0 vs 25564.0
+UPDATE_ Operations: 50000.0 vs 50000.0
+INSERT_ MinLatency(us): 156.0 vs 167.0
+INSERT_ Operations: 50000.0 vs 50000.0
+INSERT_ AverageLatency(us): 412.12472 vs 515.75988
+INSERT_ Return=OK: 50000.0 vs 50000.0
+UPDATE_ AverageLatency(us): 491.71252 vs 526.93128
+READ_ Operations: 899975.0 vs 899984.0
+READ_ Return=OK: 900000.0 vs 900000.0
+UPDATE_ MaxLatency(us): 210632.0 vs 13380.0
+READ_ MaxLatency(us): 220656.0 vs 67673.0
+READ_ AverageLatency(us): 394.97380482791186 vs 372.59933176589806
+UPDATE_ Return=OK: 50000.0 vs 50000.0
+UPDATE_ MinLatency(us): 206.0 vs 190.0
+

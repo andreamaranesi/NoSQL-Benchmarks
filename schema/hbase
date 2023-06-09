@@ -1,0 +1,8 @@
+# create 'users' table with 'info' column family
+create 'users', 'info'
+
+# create 'posts' table with 'info' column family
+create 'posts', 'info'
+
+# create 'comments' table with 'info' column family
+create 'comments', 'info'

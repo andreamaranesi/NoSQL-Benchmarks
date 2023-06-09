@@ -1,0 +1,5 @@
+docker-compose up -d
+
+docker exec -it cassandra bash
+cqlsh < /schema/cassandra_schema.cql
+z
